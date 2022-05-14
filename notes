@@ -1,0 +1,6 @@
+Tried functional design also 
+Created separated functions for parking and creating parking 
+But lot of things to be maintained globally which is not a good way of coding 
+Implementing OOP for Slots ,vehicle and parking 
+Need to try combining both functional and OOP 
+
