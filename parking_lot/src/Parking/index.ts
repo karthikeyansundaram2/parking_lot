@@ -1,6 +1,6 @@
 
-import Slots from "../Slots"
-import { SlotSize } from "../Slots";
+import Slots from "../models/Slots"
+import { SlotSize } from "../models/Slots";
 const createParking=async (size:number) => {
     const slot:any=[];
     if (size<0){
