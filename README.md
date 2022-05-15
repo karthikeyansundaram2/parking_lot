@@ -32,7 +32,7 @@ Vehicle:
   vehicle_color
 
 Parking:
-  slot
+  slots[]
 
 Attached Screenshot of Inputs and Outputs:
 
