@@ -13,7 +13,6 @@ const createParking=async (size:number) => {
             slot.push(new Slots(i, true));
         }
          console.log(`Created a parking lot with ${size} slots`);
-         console.log(totalSlots.getTotalSlots())
          return true;
     }
     else {
