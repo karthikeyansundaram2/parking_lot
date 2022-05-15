@@ -32,8 +32,8 @@ export class Parking {
                 reject(false);
             }
             for (let i in this.slot) {
-                if (!this?.slot[i]?.is_available)
-                    console.log(this?.slot[i]?.id)
+                if (!this.slot[i].is_available)
+                    console.log(this.slot[i]?.id)
             }
             resolve(true);
         })
@@ -142,3 +142,23 @@ export class Parking {
         }
     }
 }
+// async function get(type:string,slots:any) {
+//     return new Promise((resolve, reject) => {
+//         if (slots.length) {
+//             console.log("Parking Slot not initialized");
+//             reject(false);
+//         }
+//         for (let i in slots) {
+//             if (slots[i]?.is_available)
+//                 if (type=="id")
+//                     console.log(slots[i].id)
+//                 else if (type=="vehicleNo") {
+//                     console.log(slots[i]?.vehicle?.vehicleNo)
+//                 }
+//                 else if (type=="vehicleColor") {
+//                     console.log(slots[i]?.vehicle?.vehicleNo)
+//                 }
+//         }
+//         resolve(true);
+//     })
+// }
