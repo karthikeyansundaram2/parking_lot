@@ -1,6 +1,7 @@
 
 import Slots from "../models/Slots"
 import { SlotSize } from "../models/Slots";
+// functional design for creating parking lot
 const createParking=async (size:number) => {
     const slot:any=[];
     if (size<0){
