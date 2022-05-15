@@ -13,9 +13,9 @@ If not installed install node 16 version using nvm(Node Version Manager)
   
   ● npm install      _# To install all dependencies_
   
-  ● npx tsc         _# To compile ts files and convert to js files _
+  ● npx tsc         _# To compile ts files and convert to js files_
   
-  ● npm start        _# to start the serve_r 
+  ● npm start        _# to start the server_ 
   
   ● To pass file name as input need to pass file name while starting the server
   
