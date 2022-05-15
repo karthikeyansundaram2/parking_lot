@@ -3,6 +3,7 @@ Parking Lot System
 
 **Instructions for Running**: 
 
+**If branch in main just move to master branch**
 Check for node version 16
 
 If not installed install node 16 version using nvm(Node Version Manager)
