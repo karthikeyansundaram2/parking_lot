@@ -1,38 +1,54 @@
 # parking_lot
 Parking Lot System
-Instructions for Running: 
+
+**Instructions for Running**: 
+
 Check for node version 16
+
 If not installed install node 16 version using nvm(Node Version Manager)
-STEPS:
-  ● cd parking_lot # move to the folder
-  ● npm install # To install all dependencies
-  ● npx tsc # To compile ts files and convert to js files 
-  ● npm start # to start the server 
-  ● To pass file name as input need to pass file name while starting the server 
+
+**STEPS**:
+
+  ● cd parking_lot    	_# move to the folder_
+  
+  ● npm install      _# To install all dependencies_
+  
+  ● npx tsc         _# To compile ts files and convert to js files _
+  
+  ● npm start        _# to start the serve_r 
+  
+  ● To pass file name as input need to pass file name while starting the server
+  
   ● npm start inputs.txt
+  
   ● For command line inputs invoke npm start
   
-Problem Statement:
+**Problem Statement**:
+
 To create a ParkingLot System with given requirements 
 
-Classes Used :
-  Slots
-  Vehicle
-  Parking
+**CLASSES**:
 
-Properties of Classes:
+  	Slots
+ 	Vehicle
+	Parking
 
-Slots:
-  id
-  is_available
-  vehicle
+**Properties of Classes**:
 
-Vehicle:
-  vehicle_no
-  vehicle_color
+**Slots**:
 
-Parking:
-  slots[]
+  	id
+  	is_available
+  	vehicle
+
+**Vehicle**:
+
+  	vehicle_no
+  	vehicle_color
+
+**Parking**:
+
+  	slots[]
 
 Attached Screenshot of Inputs and Outputs:
 
